@@ -1,0 +1,58 @@
+// src/components/Skills.module.scss
+.skills {
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 40px;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 25px;
+    color: #007bff;
+    text-align: center;
+  }
+  
+  .skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between items */
+    justify-content: center; /* Center the items */
+    margin-top: 20px;
+  }
+  
+  .skill {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .skill:hover {
+    transform: translateY(-5px); /* Move the card slightly upwards on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhance the shadow effect */
+  }
+  
+  .icon {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .skillName {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .skill:hover .icon {
+    color: #0056b3; /* Change icon color on hover */
+  }
+  
